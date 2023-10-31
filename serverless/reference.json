@@ -1373,7 +1373,7 @@
     "ServerlessFilePath": {
       "type": "string",
       "minLength": 1,
-      "pattern": "\\$\\{file\\(.+\\.(yml|yaml)\\)(:[A-Za-z]+)?(\\s*,\\s*(\"[^,]*\"|'[^,]*'|[A-Za-z:._-]+)\\s*)?\\}"
+      "pattern": "\\$\\{file\\(.+\\.(yml|yaml|cjs)\\)(:[A-Za-z]+)?(\\s*,\\s*(\"[^,]*\"|'[^,]*'|[A-Za-z:._-]+)\\s*)?\\}"
     },
     "AwsRestApiLogs": {
       "title": "AwsRestApiLogs",
